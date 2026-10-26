@@ -1,0 +1,9 @@
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-6OCESLgzX7OhNpfaNuK1uxTOMWIiegBKZMJmAvaGOiY=' 'sha256-CQgCSwf60kZOKWQkqDf67+F6QBGGtCCno2+ISyJWk84=' 'sha256-cDVm2vDo0uZaZWTNNb+42u2Te9M3jrhpByGPwWSqb18=' 'sha256-d3U3siwXwkUpkWtFzZIq6R43+1OLf4lWIaQ0ASlzs1E=' 'sha256-gr0RPGQl1YJ5Mp21k3/HoqUZhpnIc6pq1oTHkyXADGE=' 'sha256-nte4++tbK2Qo1ZWgkASVXbUlhNyGLbiz9TgTB+SOpI4=' 'sha256-seQXvE1E8aAxqMhb9PBGYf0MjnaDn6g2axTn4LN6peA='; style-src 'self' 'sha256-/J8rXkWcE+4+rGAphfwiNRvN+sOA6spY2OHwwLUH7OQ=' 'sha256-IA6iW9MBT1+0ySg30vX2U0uA1jyePv93bYYuPvEl0JE=' 'sha256-eBGH9sFqSxzNLjpsFCx+O+D4le+t8GyxYIftKv6ZHRY=' 'sha256-mpu+7OhVFfSQpQ05Q0qo2DgyimEC81iL+MMjrk820nQ='; style-src-attr 'unsafe-inline'; img-src 'self' data: blob: https://API_ORIGIN_HERE; media-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://API_ORIGIN_HERE; frame-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin

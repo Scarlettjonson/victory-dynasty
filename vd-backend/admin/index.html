@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Victory Dynasty — Inbox Admin</title><link rel="stylesheet" href="admin.css"></head>
+<body>
+<main id="login" class="card"><h1>Victory Dynasty</h1><p>Private inbox — owner login</p>
+<form id="lf" autocomplete="on"><label>Username<input id="u" autocomplete="username" required></label>
+<label>Password<input id="p" type="password" autocomplete="current-password" required></label>
+<button>Sign in</button><p id="le" role="alert"></p></form></main>
+<div id="app" hidden>
+<aside><header><b>Inbox</b><button id="out" type="button">Sign out</button></header><ul id="threads"></ul></aside>
+<section><header id="th">Select a conversation</header><div id="msgs" role="log"></div>
+<form id="rf" hidden><textarea id="rt" rows="2" maxlength="2000" placeholder="Write a reply…" required></textarea><button>Send</button></form></section></div>
+<script src="admin.js"></script></body></html>
